@@ -138,3 +138,7 @@ conda install opencv-python
 - [火山方舟官网](https://www.volcengine.com/product/ark) 获取大模型的API
 - 各种你可以使用到的AI，多方参看
 
+## 4.后续
+1.感谢你的观看和使用，期待您的建议和反馈
+2.欢迎加入我的开发，你可以通过[QQ邮箱](1833299761@qq.com)或[山大邮箱](202400460052@sdu.edu.cn)联系我
+3.后续我将把项目的演示视频做出并上传到平台上，有兴趣请搜索账号名：D-xmdjy
