@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML6 演示文档</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-bundle.js"></script>
+  <script src="./user-card.js"></script>
+  <script src="./account-info.js"></script>
+  <script src="./chart-component.js"></script>
+  <script src="./divide-line.js"></script>
+  <style>
+    body {
+      padding: 20px;
+      background: #f0f8ff;
+    }
+  </style>
+</head>
+
+<body>
+  <user-card 
+    name="wwww" 
+    age="19" 
+    gender="男">
+  </user-card>
+
+  <divide-line></divide-line>
+
+  <account-info 
+    name="张三"
+    id="2023001"
+    password="abc123"
+  ></account-info>
+
+  <divide-line state="flash"></divide-line>
+
+  <chart-component
+  name="User Analytics" 
+  data="37210,48530,12670" 
+  dataid="NewUsers,ActiveUsers,ChurnedUsers">
+</chart-component>
+
+</body>
+</html>
